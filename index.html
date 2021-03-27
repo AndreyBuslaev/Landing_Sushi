@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Content/main.css">
+    <title>Sushi-Shmaster</title>
+</head>
+<body>
+    <header>
+        <div class = "header-container media-inline">
+            <div class="header-container-item">
+                <img src="./Content/Img/clown-fish.webp" alt="fish" class="header-logo header-item">
+                <h2 class="header-name header-item">Суши-шмастер</h2>
+            </div>
+            <div class="header-container-item">
+                <a href="#" class="order-button">Сделать заказ</a>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="section-container">
+            <div class="main-description">
+                <h1>Суши-мастер - лучшее, что есть в твоем городе<br> Порадуй себя и своих родных и близких</h1>
+            </div>
+            <div class="description">
+                <h3>Ниже представлены наши самые популярные позиции за пол года работы на карантине</h3>
+            </div>
+            <div class="description">
+                <h3 class="bold">Актуальные позиции</h3>
+            </div>
+            <div class="container-menu">
+                <div class="container-menu-item">
+                    <img src="./Content/Img/s3.webp" alt="sushi" class="img-sushi">
+                    <h4>Гринболь ролл</h4>
+                    <p>Закажи сей вкусный ролл,<br> Он украсит ваший стол,<br> Он порадует ваш глаз,<br> Получи скорей экстаз!</p>
+                    <a href="#" class="isActive">Заказать</a>
+                </div>
+                <div class="container-menu-item">
+                    <img src="./Content/Img/s1.webp" alt="sushi" class="img-sushi">
+                    <h4>Оранжад ролл</h4>
+                    <p>Закажи сей вкусный ролл,<br> Он украсит ваший стол,<br> Он порадует ваш глаз,<br> Получи скорей экстаз!</p>
+                    <a href="#">Недоступно к заказу</a>
+                </div>
+                <div class="container-menu-item">
+                    <img src="./Content/Img/s2.webp" alt="sushi" class="img-sushi">
+                    <h4>Брауни ролл</h4>
+                    <p>Закажи сей вкусный ролл,<br> Он украсит ваший стол,<br> Он порадует ваш глаз,<br> Получи скорей экстаз!</p>
+                    <a href="#">Недоступно к заказу</a>
+                </div>
+                <div class="container-menu-item2">
+                    <img src="./Content/Img/s44.webp" alt="sushi-set" class="sushi-set">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-slider">
+        <div class="section-slider-header">
+            <h1>Самые выгодные предложения:</h1>
+        </div>
+        <div class="slider">
+            <div class="item">
+                <img src="./Content/Img/krevetki.webp" alt="Первый слайд">
+            </div>
+            <div class="item">
+                <img src="./Content/Img/vodka_.webp" alt="Второй слайд">
+            </div>
+            <div class="item">
+                <img src="./Content/Img/dorado.webp" alt="Третий слайд">
+            </div>
+        </div>
+        <div class="slider-dots">
+            <a class="prev" onclick="minusSlide()">&#10094;</a>
+            <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+            <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+            <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+            <a class="next" onclick="plusSlide()">&#10095;</a>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <p id="year"></p>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
