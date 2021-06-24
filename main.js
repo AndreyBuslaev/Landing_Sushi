@@ -1,5 +1,5 @@
-const link = document.querySelectorAll('a');
-link.addEventListener('click', e => e.preventDefault());
+const linkButton = document.querySelectorAll('.default');
+linkButton.addEventListener('click', e => e.preventDefault());
 
 // slider
 
