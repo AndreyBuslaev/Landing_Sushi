@@ -39,4 +39,4 @@ function showSlides(n) {
 const year = document.querySelector('#year')
 const date = new Date();
 
-year.innerHTML = 'Copyrigth ' + [date.getFullYear()];
+year.innerHTML = 'Copyright ' + [date.getFullYear()];
