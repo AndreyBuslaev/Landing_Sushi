@@ -1,7 +1,4 @@
-const linkButton = document.querySelectorAll('.default');
-linkButton.addEventListener('click', (e) => {
-    e.preventDefault();
-});
+
 
 // slider
 
