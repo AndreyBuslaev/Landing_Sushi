@@ -1,3 +1,6 @@
+const link = document.querySelectorAll('a');
+link.addEventListener('click', e => e.preventDefault)
+
 // slider
 
 let slideIndex = 1;
